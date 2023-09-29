@@ -2,32 +2,76 @@
 <html lang="eng">
 <head>
 <title>App</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+<style>
+    html {
+        height: 100%;
+        background-image: linear-gradient(rgb(180, 173, 230), rgb(201, 201, 55));
+        background-repeat: no-repeat;
+    }
+    input {
+        margin: 5px;
+    }
+    .container {
+        margin: 0%;
+        display: inline-block;
+    }
+    .screen {
+        height: 100%;
+    }
+    footer strong ul li {
+        display: inline-block;
+    }
+    div p {
+        text-align:justify;
+    }
+    * {
+        font-family: 'Onest', sans-serif;
+        text-align: center;
+    }
+</style>
 </head>
 <body>
 
-    <input placeholder="Full Name" id="g_f_name">
-    <input placeholder="Age" type="number" id="g_age">
-    <input placeholder="Full Address" id="g_addrs">
-    <button type="submit" onclick="Show_Name()">Submit</button>
+    <input placeholder="Full Name" id="g_f_name"><br>
+    <input placeholder="Age" type="number" id="g_age"><br>
+    <input placeholder="Full Address" id="g_addrs"><br>
+    <button onclick="Show_Name()">Submit</button><br>
 
 
 
 
 
+    <div class="container">
+        <p>Name: <a id="f_name"></a></p>
+        <p>Age: <a id="age"></a></p>
+        <p>Address: <a id="Addrs"></a></p>
+    </div>
+    <hr>
+    <footer><strong>
 
-    <p>Name: <a id="f_name"></a></p>
-    <p>Age: <a id="age"></a></p>
-    <p>Address: <a id="Addrs"></a></p>
+        <ul>
+            <li>Made By: Julius • </li>
+            <li>2023®</li>
+        </ul>
 
+    </strong></footer>
+    <div class="screen"></div>
 </body>
 
 <script>
-    var F_name;
-    var age;
     var Addrs;
 
     function Show_Name(){
+        let f_name = document.getElementById("g_f_name").value;
+        let age = document.getElementById("g_age").value;
+        let Address = document.getElementById("g_addrs").value;
 
+        document.getElementById("f_name").innerHTML = f_name;
+        document.getElementById("age").innerHTML = age;
+        document.getElementById("Addrs").innerHTML = Address;
     }
 
 
