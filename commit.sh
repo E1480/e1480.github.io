@@ -2,8 +2,8 @@
 
 clear
 
-hours=$(date +%H)
+dates=$(date +%H:%M)
 
 git add *
-git commit -a -m "Commit-$hours"
+git commit -a -m "Commit-$dates"
 git push
