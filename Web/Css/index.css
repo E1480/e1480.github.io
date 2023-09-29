@@ -2,6 +2,11 @@ body {
   font-family: 'Onest', sans-serif;
 }
 
+.IASubmitBtn {
+  margin: 23px;
+  padding: 10px;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -16,7 +21,7 @@ body {
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -61,7 +66,7 @@ html {
 }
 
 input {
-  margin: 5px;
+  margin: 17px 0px 0px 0px;
 }
 .container {
   margin: 0%;
