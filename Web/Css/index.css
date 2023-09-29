@@ -24,6 +24,13 @@ body {
   transition: 0.3s;
 }
 
+.SideBar {
+  position:absolute;
+  font-size:30px;
+  cursor:pointer;
+  text-align: unset;
+}
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -37,6 +44,7 @@ body {
 }
 
 #main {
+  text-align: left;
   transition: margin-left .5s;
   padding: 16px;
 }
