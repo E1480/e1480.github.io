@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/index.css">
 <style>
     html {
         height: 100%;
@@ -19,15 +20,13 @@
     .container {
         margin: 0%;
         display: inline-block;
+        text-align:justify;
     }
     .screen {
         height: 100%;
     }
     footer strong ul li {
         display: inline-block;
-    }
-    div p {
-        text-align:justify;
     }
     * {
         font-family: 'Onest', sans-serif;
@@ -36,31 +35,38 @@
 </style>
 </head>
 <body>
-
-    <input placeholder="Full Name" id="g_f_name"><br>
-    <input placeholder="Age" type="number" id="g_age"><br>
-    <input placeholder="Full Address" id="g_addrs"><br>
-    <button onclick="Show_Name()">Submit</button><br>
-
-
-
-
-
-    <div class="container">
-        <p>Name: <a id="f_name"></a></p>
-        <p>Age: <a id="age"></a></p>
-        <p>Address: <a id="Addrs"></a></p>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Apps/inputApp.html">Input App</a>
     </div>
-    <hr>
-    <footer><strong>
-
-        <ul>
-            <li>Made By: Julius</li>
-            <li>2023®</li>
-        </ul>
-
-    </strong></footer>
-    <div class="screen"></div>
+    
+    <div id="main">
+        <input placeholder="Full Name" id="g_f_name"><br>
+        <input placeholder="Age" type="number" id="g_age"><br>
+        <input placeholder="Full Address" id="g_addrs"><br>
+        <button onclick="Show_Name()">Submit</button><br>
+        
+        
+        
+        
+        
+        <div class="container">
+            <p>Name: <a id="f_name"></a></p>
+            <p>Age: <a id="age"></a></p>
+            <p>Address: <a id="Addrs"></a></p>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <hr>
+        <footer><strong>
+        
+            <ul>
+                <li>Made By: Julius</li>
+                <li>2023®</li>
+            </ul>
+        
+        </strong></footer>
+        <div class="screen"></div>
+    </div>
 </body>
 
 <script>
@@ -76,6 +82,15 @@
         document.getElementById("Addrs").innerHTML = Address;
     }
 
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
 
 </script>
 
