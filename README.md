@@ -1,2 +1,1 @@
-
-<strong>test</strong>
+* What is this?
