@@ -2,5 +2,5 @@
 
 clear
 git add *
-git commit -m "Commit using commit.sh"
+git commit -m $1
 git push
