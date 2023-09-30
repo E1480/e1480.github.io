@@ -11,8 +11,12 @@ Just remember to add the new app to the previous Apps sidebar.<br>
 > [!NOTE]
 > This is still W.I.P.
 
+- [Html](html-bluepr)
+- [Css]
+- [Js]
 
-### Html Blueprint
+
+#### Html Blueprint
 ```html
 <!DOCTYPE html>
 <html>
