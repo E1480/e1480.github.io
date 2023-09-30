@@ -8,8 +8,8 @@ Just remember to add the new app to the previous Apps sidebar.<br>
 
 ### Too lazy to open the files?
 
-[!NOTE]
-This is still W.I.P.
+> [!NOTE]
+> This is still W.I.P.
 
 
 - Html Blueprint
