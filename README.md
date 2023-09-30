@@ -11,5 +11,5 @@ nothing, that's it,
 
 # App Files
 - [Blueprint](/Blueprint)
-- [Apps](/Web/)
+- [Apps](/Web/Apps/)
 
