@@ -7,6 +7,11 @@ after copy and pasting this I can play around with the css, html, and js.<br>
 Just remember to add the new app to the previous Apps sidebar.<br>
 
 ### Too lazy to open the files?
+
+[!NOTE]
+This is still W.I.P.
+
+
 - Html Blueprint
 ```html
 <!DOCTYPE html>
