@@ -6,13 +6,13 @@ Here are blueprints that are needed to make a new app.<br>
 after copy and pasting this I can play around with the css, html, and js.<br>
 Just remember to add the new app to the previous Apps sidebar.<br>
 
-### Too lazy to open the files?
+## Too lazy to open the files?
 
 > [!NOTE]
 > This is still W.I.P.
 
 
-- Html Blueprint
+### Html Blueprint
 ```html
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,7 @@ Just remember to add the new app to the previous Apps sidebar.<br>
 </html> 
 ```
 
-- Css Blueprint
+#### Css Blueprint
 ```css
 
 .sidenav {
@@ -103,7 +103,7 @@ Just remember to add the new app to the previous Apps sidebar.<br>
 
 ```
 
-- Js Blueprint
+#### Js Blueprint
 ```javascript
 
 
