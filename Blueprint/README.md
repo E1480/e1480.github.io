@@ -12,8 +12,8 @@ Just remember to add the new app to the previous Apps sidebar.<br>
 > This is still W.I.P.
 
 - [Html](#html-blueprint)
-- [Css]
-- [Js]
+- [Css](#css-blueprint)
+- [Js](#js-blueprint)
 
 
 #### Html Blueprint
