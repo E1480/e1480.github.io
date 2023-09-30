@@ -10,6 +10,6 @@ This is just a Practice project for me to lern HTML.
 nothing, that's it,
 
 # App Files
-- [Blueprint](/Blueprint/README.md)
+- [Blueprint](/Blueprint)
 
 
