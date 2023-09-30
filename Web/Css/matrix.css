@@ -54,3 +54,10 @@
     font-family: 'Onest', sans-serif;
     text-align: center;
   }
+
+canvas {
+  display: block;
+  position:absolute;
+  top:0;
+  left:0;
+}
