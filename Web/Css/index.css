@@ -151,8 +151,13 @@ html {
   text-align: left;
 }
 
-#main table, th, td {
-  border:1px solid black;
+#main th, td {
+  border:2px solid black;
   padding: 5px;
   text-align: center;
+}
+
+#main .id_aboutMe table {
+  padding: auto;
+  margin: auto;
 }
