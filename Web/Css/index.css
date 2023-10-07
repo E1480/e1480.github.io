@@ -12,6 +12,7 @@
 }
 
 .sidenav a {
+  text-align: center;
   padding: 8px;
   text-decoration: none;
   font-size: 25px;
@@ -71,6 +72,7 @@ html {
   height: 100%;
   background-image: linear-gradient(rgb(180, 173, 230), rgb(201, 201, 55));
   background-repeat: no-repeat;
+  font-family: 'Onest', sans-serif;
 }
 
 .container {
@@ -80,11 +82,6 @@ html {
 }
 .screen {
   height: 100%;
-}
-
-* {
-  font-family: 'Onest', sans-serif;
-  text-align: center;
 }
 
 .ico{
@@ -97,7 +94,7 @@ html {
 
 .id_card {
   display: inline-block;
-  margin: 50px;
+  margin: 10px;
   padding: inherit;
   border-radius: 20px;
   border: black solid;
@@ -115,4 +112,22 @@ html {
 
 #main .id_card .p_info {
   padding: 1%;
+}
+
+#main h1 {
+  text-align: center;
+}
+
+#main ul {
+  text-align: center;
+}
+
+#main ul li {
+  list-style: none;
+}
+
+#main h3 {
+  text-align: center;
+  margin-top: 5%;
+  border-bottom: black dotted;
 }
