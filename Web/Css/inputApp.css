@@ -5,9 +5,14 @@ html {
     background-repeat: no-repeat;
 }
 
-.inp {
-    margin: 17px 0px 0px 0px !important;
+input{
+    margin: 17px 0px 0px 0px;
 }
+
+.IASubmitBtn {
+    margin: 23px;
+    padding: 10px;
+  }
 
 * {
     font-family: 'Onest', sans-serif;
