@@ -5,8 +5,8 @@ html {
     background-repeat: no-repeat;
 }
 
-input {
-    margin: 17px 0px 0px 0px;
+.inp {
+    margin: 17px 0px 0px 0px !important;
 }
 
 * {
