@@ -40,9 +40,13 @@
 }
 
 #main {
-  text-align: left;
   transition: margin-left .5s;
   padding: 16px;
+}
+
+#main span {
+  display: block;
+  text-align: left;
 }
 
 @media screen and (max-height: 450px) {
@@ -68,4 +72,12 @@ html {
 * {
   font-family: 'Onest', sans-serif;
   text-align: center;
+}
+
+.ico{
+  max-width: 200px;
+  height: auto;
+  border: 5px double;
+  border-radius: 50%;
+  background-color: black;
 }
