@@ -72,9 +72,7 @@ input {
 .screen {
   height: 100%;
 }
-footer strong ul li {
-  display: inline-block;
-}
+
 * {
   font-family: 'Onest', sans-serif;
   text-align: center;

@@ -1,0 +1,9 @@
+
+* {
+    font-family: 'Onest', sans-serif;
+    text-align: center;
+  }
+
+footer strong ul li {
+    display: inline-block;
+  }
