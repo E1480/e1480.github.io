@@ -56,8 +56,10 @@
 }
 
 #main p a {
+  display: grid;
   text-decoration: none;
   color: black;
+  justify-content: end;
 }
 
 @media screen and (max-height: 450px) {
@@ -99,7 +101,7 @@ html {
   padding: inherit;
   border-radius: 20px;
   border: black solid;
-  background-image: linear-gradient(lightblue, lime);
+  background-image: linear-gradient(lightblue, lightgray);
   background-repeat: no-repeat;
   text-align: left;
 }
