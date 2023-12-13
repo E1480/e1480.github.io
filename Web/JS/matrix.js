@@ -1,3 +1,8 @@
+/*
+
+NOTE: not mine, just copied for tests.
+
+*/
 var canvas = document.getElementById( 'canvas' ),
 		ctx = canvas.getContext( '2d' ),
     canvas2 = document.getElementById( 'canvas2' ),
