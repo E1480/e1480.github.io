@@ -57,10 +57,10 @@
 }
 
 #main p a {
-  display: grid;
+  /* display: grid; */
   text-decoration: none;
   color: black;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 @media screen and (max-height: 450px) {
